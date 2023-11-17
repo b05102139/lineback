@@ -15,7 +15,7 @@ pip install .
 ## Usage
 The callback can be used as follows, where the only necessary params are the LINE Notify API token that you should obtain from their site (https://notify-bot.line.me/en/), and a name for the process:
 ```python
-from lineback import lineback
+from lineback.lineback import lineback
 API_TOKEN=""
 PROCESS_NAME="autoencoder"
 # insert relevant pytorch lightning code here
